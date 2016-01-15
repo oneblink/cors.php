@@ -15,8 +15,8 @@
     ],
     "require": {},
     "scripts": {
-      "phpunit": "phpunit test",
-      "php-cs-fixer": "php-cs-fixer fix src",
-      "test": []
+        "phpunit": "phpunit test",
+        "php-cs-fixer": "php-cs-fixer fix src",
+        "test": ["@phpunit", "@php-cs-fixer"]
     }
 }

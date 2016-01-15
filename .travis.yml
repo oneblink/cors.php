@@ -4,3 +4,5 @@ php:
   - '5'
   - '7'
 sudo: false
+before_install:
+  - composer self-update
