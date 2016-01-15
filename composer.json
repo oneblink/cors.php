@@ -1,0 +1,22 @@
+{
+    "name": "blinkmobile/cors",
+    "description": "framework-free helper to add CORS headers to HTTP requests when appropriate",
+    "version": "1.0.0",
+    "require-dev": {
+        "phpunit/phpunit": "~4.0",
+        "fabpot/php-cs-fixer": "~1.0"
+    },
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Ron Waldon",
+            "email": "ron@blinkmobile.com.au"
+        }
+    ],
+    "require": {},
+    "scripts": {
+      "phpunit": "phpunit test",
+      "php-cs-fixer": "php-cs-fixer fix src",
+      "test": []
+    }
+}
