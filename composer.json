@@ -17,6 +17,11 @@
     "scripts": {
         "phpunit": "phpunit test",
         "php-cs-fixer": "php-cs-fixer fix src",
-        "test": ["@phpunit", "@php-cs-fixer"]
+        "test": ["@phpunit"]
+    },
+    "autoload": {
+        "psr-4": {
+            "blinkmobile\\": "src/"
+        }
     }
 }
